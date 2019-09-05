@@ -1,0 +1,94 @@
+html {
+    background-color: rgb(235, 234, 241)
+}
+body {
+    margin: 0px;
+	padding: 0px;
+	font-family: Roboto;
+	color: #46494C;
+	position: relative;
+    box-sizing: border-box;}
+    .body-container {
+        background-color: rgb(235, 234, 241);
+        height: 1200px;
+    }
+    .intro-container .body {
+        font-family: pacifico;
+        padding: 15px;
+    }
+        .intro-container .details {
+            padding-top: 150px;
+            margin: 20px;
+            height: 700px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            line-height: 0.3;   
+     }          
+     .text-header button:hover {
+        transition: all 0.3s ease;
+        background-color: #363732;
+    }
+    .education {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #a6ad8a;
+        color: #EBEBEB;
+        text-align: center;
+    }
+    .education .schools {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }	
+    .education .schools .sch {
+        line-height: 25px;
+        margin: 20px;
+    }
+    /*.ruler {
+        height: 40px;
+        width: 1px;
+        background-color: #eee;
+    }*/
+    .education .schools .sch .sc {
+        color: rgb(240, 209, 118);
+        font-style: italic;
+    }
+    .education .all-schools .sch .co {
+        font-size: 12px;
+    }
+    
+    }
+    .ss-container {
+        margin-top: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #363732;
+        color: #EBEBEB;
+        text-align: center;
+    }
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 40px;
+    }
+    .ss-container .ss{
+        width: 150px;
+        height: 100px;
+        border: 2px solid #FEC62F;
+        border-radius: 20%;
+        text-align: center;
+        margin: 10px;
+    }
+    .ss-container .ss div {
+        padding-top: 40px;
+    }
+    #contact-form .form-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 80px 0;
+        height: 100px;
+        text-align: center;
+
+    }
